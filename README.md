@@ -6,7 +6,7 @@ v0.1
 
 This jQuery plugin can be used to animate images in various ways
 by sub-dividing them into smaller pixels. For examples, take a
-look at (http://simonwo.net/code/tilefx).
+look at https://simonwo.net/code/tilefx.
 
 Performance will vary browser to browser. Decreasing the tile
 size (and hence increasing the number of tiles) and increasing
@@ -14,8 +14,8 @@ the speed will make things slower. Test thoroughly on all your
 target browsers as there is still much variation in the speed
 of operation across the major JS engines.
 
-Use these effects at your own risk. [You can totally destory any
-power a design has by adding animation.](bit.ly/17WmHpE) In short,
+Use these effects at your own risk. [You can totally destroy any
+power a design has by adding animation.](https://bit.ly/17WmHpE) In short,
 animation should be subtle, and shouldn't distract the user from
 the purpose of their visit.
 
@@ -61,7 +61,7 @@ Usage
 
   `$(elem).tilefx('wipe', 250)`
 
-  Aniamte columns of tiles from left to right with a delay
+  Animate columns of tiles from left to right with a delay
   between each column.
 
   speed: the number of msec to wait between each column.
